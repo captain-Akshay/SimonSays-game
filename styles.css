@@ -1,0 +1,65 @@
+body {
+  text-align: center;
+  background-color: #000;
+}
+
+#level-title {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-image: url("images/whitecard.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+}
+
+.green {
+  background-image: url("images/whitecard.png");
+  background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+}
+
+.blue {
+  background-image: url("images/whitecard.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+}
+
+.yellow {
+  background-image: url("images/whitecard.png");
+  background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
