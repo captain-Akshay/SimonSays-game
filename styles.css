@@ -1,3 +1,4 @@
+
 body {
   text-align: center;
   background-color: #000;
@@ -62,4 +63,18 @@ body {
 .pressed {
   box-shadow: 0 0 20px white;
   background-color: grey;
+}
+@media (max-width: 1028px) {
+  body{
+    visibility: hidden;
+  }
+  footer{
+    visibility: visible;
+    font-size:1.5rem;
+    text-align: center;
+    color: white;
+    position: absolute;
+    left:30%;
+    bottom: 80%;
+  }
 }
